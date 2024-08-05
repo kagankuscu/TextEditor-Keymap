@@ -42,8 +42,8 @@
     "when": "explorerViewletFocus"
   },
   {
-    "command": "deleteFile",
     "key": "d",
+    "command": "deleteFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
 
@@ -68,5 +68,18 @@
     "key": "ctrl+b",   
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+t f",
+    "command": "terminal.focus"
+  },
+  {
+    "key": "ctrl+e f",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+s f",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorFocus || terminal.active"
   }
 ]
