@@ -83,22 +83,22 @@
     "when": "editorFocus || terminal.active"
   },
   {
-    "key": "ctrl+shift+h",
+    "key": "ctrl+shift+,",
     "command": "workbench.action.decreaseViewWidth",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+l",
+    "key": "ctrl+shift+.",
     "command": "workbench.action.increaseViewWidth",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "ctrl+,",
     "command": "workbench.action.decreaseViewHeight",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+.",
     "command": "workbench.action.increaseViewHeight",
     "when": "editorFocus"
   }
